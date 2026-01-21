@@ -1,0 +1,42 @@
+# ============================================================================
+# DBT PROJECT CONFIG
+# ============================================================================
+# E-commerce data warehouse project using dimensional modeling.
+# Layers: staging (views) → warehouse (tables) → marts (tables)
+# ============================================================================
+
+name: 'ecommerce_dbt'
+version: '1.0.0'
+
+profile: 'ecommerce_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# ============================================================================
+# MODEL MATERIALIZATIONS
+# ============================================================================
+# staging:   views (lightweight, no storage cost)
+# warehouse: tables (better query performance for dims/facts)
+# marts:     tables (aggregated reporting tables)
+# ============================================================================
+
+models:
+  ecommerce_dbt:
+    staging:
+      +materialized: view
+      +schema: staging
+    warehouse:
+      +materialized: table
+      +schema: warehouse
+    marts:
+      +materialized: table
+      +schema: analytics

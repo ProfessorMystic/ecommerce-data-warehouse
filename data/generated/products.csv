@@ -1,0 +1,201 @@
+product_id,sku,name,description,category_id,category_name,price,cost,stock_quantity,is_active,created_at,updated_at
+1,SKU-03-00001,Candidate Cushion,Treat worry make quickly however culture artist.,3,Home & Garden,91.51,59.48,140,True,2024-08-13 18:12:36.543342,2026-01-19 11:52:07.383344
+2,SKU-03-00002,Hold Mirror,Really dark billion trade PM any fund.,3,Home & Garden,117.83,76.59,24,False,2025-12-21 13:12:49.274188,2026-01-19 11:52:07.383436
+3,SKU-07-00003,Great Nail Polish,Drive face green white thought guy itself cost but yeah what professional data.,7,Beauty,143.82,71.91,209,True,2025-08-22 06:06:58.847499,2026-01-19 11:52:07.383530
+4,SKU-07-00004,Without Perfume,Record team increase meeting night site green account write season before me.,7,Beauty,154.57,77.28,242,True,2025-07-27 13:00:59.299160,2026-01-19 11:52:07.383644
+5,SKU-04-00005,Approach Tennis Racket,Cut list have form likely fly city personal often.,4,Sports,173.65,121.55,73,True,2025-03-20 22:24:37.199375,2026-01-19 11:52:07.383737
+6,SKU-01-00006,Dog Speaker,New thought sing pattern whole that property inside model western third.,1,Electronics,1453.29,1235.3,285,True,2026-01-07 07:24:57.135435,2026-01-19 11:52:07.383780
+7,SKU-07-00007,Office Shampoo,Position agency because happy so necessary others behavior hard daughter.,7,Beauty,62.17,31.09,169,True,2024-02-20 22:39:18.877345,2026-01-19 11:52:07.383820
+8,SKU-08-00008,Into Honey,Any particularly couple question down describe number drug onto.,8,Food & Grocery,32.11,25.69,370,True,2024-06-03 02:37:35.201024,2026-01-19 11:52:07.383854
+9,SKU-01-00009,Able Smart Watch,Myself player million want yes artist mother deep father.,1,Electronics,596.89,507.36,309,True,2025-12-15 20:37:55.188349,2026-01-19 11:52:07.383894
+10,SKU-02-00010,Listen Jacket,Between sense significant it eat think thing source school myself federal record.,2,Clothing,163.86,98.32,300,True,2024-06-03 14:04:42.267807,2026-01-19 11:52:07.383940
+11,SKU-04-00011,Cultural Water Bottle,Itself lose chance staff film summer election possible create range coach.,4,Sports,53.64,37.55,464,True,2025-01-15 12:43:50.849182,2026-01-19 11:52:07.384016
+12,SKU-01-00012,Tend Headphones,Image kind size force behavior realize listen station few participant collection.,1,Electronics,1408.88,1197.55,492,True,2024-10-29 13:31:34.749184,2026-01-19 11:52:07.384061
+13,SKU-08-00013,Like Spice Set,Fill wear himself particular work notice reflect.,8,Food & Grocery,143.69,114.95,360,True,2024-07-20 03:18:23.145338,2026-01-19 11:52:07.384251
+14,SKU-04-00014,Take Bike Helmet,Form join financial century past act check her soldier serve.,4,Sports,158.47,110.93,194,True,2025-09-29 15:32:34.107195,2026-01-19 11:52:07.384285
+15,SKU-06-00015,Wrong Building Blocks,Source environmental western home industry you mind when business worry consider cause sit.,6,Toys,63.39,34.86,262,False,2024-05-05 14:04:44.080485,2026-01-19 11:52:07.384396
+16,SKU-08-00016,Red Olive Oil,Window population entire nice case tough difficult debate magazine newspaper establish wonder push ask.,8,Food & Grocery,163.52,130.82,369,True,2025-01-29 23:26:23.507603,2026-01-19 11:52:07.384464
+17,SKU-06-00017,Million Doll,Religious writer white many each up skin foreign his.,6,Toys,83.58,45.97,211,True,2025-08-26 10:56:19.434274,2026-01-19 11:52:07.384518
+18,SKU-04-00018,Visit Running Shoes,Put last human standard trouble wonder stay leave history quality.,4,Sports,18.0,12.6,283,False,2024-02-28 13:00:14.877235,2026-01-19 11:52:07.384553
+19,SKU-07-00019,Head Face Mask,Attack same trouble PM look interesting police wait enough why.,7,Beauty,43.2,21.6,168,True,2025-11-18 18:09:39.823258,2026-01-19 11:52:07.384583
+20,SKU-04-00020,Company Water Bottle,Already in effort its cover edge education amount factor because rate.,4,Sports,116.87,81.81,483,True,2024-11-30 01:32:27.261602,2026-01-19 11:52:07.384616
+21,SKU-05-00021,Enough Travel Guide,Resource tend case economic bar off occur month provide price source.,5,Books,48.66,36.49,328,True,2024-11-13 16:01:59.309248,2026-01-19 11:52:07.384680
+22,SKU-08-00022,Product Chocolate Box,Dog first system floor myself personal writer.,8,Food & Grocery,150.56,120.45,180,True,2025-11-16 12:44:12.248270,2026-01-19 11:52:07.384720
+23,SKU-08-00023,There Chocolate Box,Remember may upon together improve yet control majority.,8,Food & Grocery,184.63,147.7,277,False,2025-03-26 18:11:12.170529,2026-01-19 11:52:07.384852
+24,SKU-01-00024,Sense Laptop,Single can daughter benefit I turn.,1,Electronics,1266.65,1076.65,38,False,2025-07-16 11:27:35.841652,2026-01-19 11:52:07.384994
+25,SKU-01-00025,Mouth Laptop,Wife say make although character owner more glass too pressure street far story.,1,Electronics,647.97,550.77,431,True,2024-11-11 21:37:46.405712,2026-01-19 11:52:07.385105
+26,SKU-02-00026,Prepare Dress,Again suggest list reflect goal per believe both face first woman start and.,2,Clothing,16.69,10.01,258,True,2025-12-08 06:02:14.053764,2026-01-19 11:52:07.385152
+27,SKU-01-00027,According Monitor,Low rule score hand determine into action seem today within board near lay fund.,1,Electronics,1005.96,855.07,8,True,2025-12-03 15:20:47.771581,2026-01-19 11:52:07.385195
+28,SKU-07-00028,Test Moisturizer,Book your dream strong analysis early participant kitchen eat beautiful including.,7,Beauty,18.09,9.04,369,True,2024-11-15 09:51:23.437702,2026-01-19 11:52:07.385229
+29,SKU-05-00029,Information Fiction Novel,Compare cut beat including green member.,5,Books,30.09,22.57,357,True,2024-11-20 17:35:50.985390,2026-01-19 11:52:07.385258
+30,SKU-03-00030,Child Rug,Law forward change lead catch approach drop pick list.,3,Home & Garden,184.84,120.15,268,True,2024-03-01 23:24:25.816125,2026-01-19 11:52:07.385297
+31,SKU-04-00031,Look Tennis Racket,Both account whether tough suddenly true type near among often.,4,Sports,165.81,116.07,136,True,2024-09-09 04:29:49.521541,2026-01-19 11:52:07.385326
+32,SKU-02-00032,Bag Hoodie,Will bar mission support law read.,2,Clothing,192.47,115.48,235,True,2024-06-16 00:22:46.856730,2026-01-19 11:52:07.385384
+33,SKU-04-00033,Couple Tennis Racket,Half somebody off director recent discuss picture have morning.,4,Sports,141.55,99.09,434,True,2025-07-09 05:44:35.185424,2026-01-19 11:52:07.385469
+34,SKU-01-00034,School Smartphone,Why that industry list argue kind father certainly board month.,1,Electronics,637.65,542.0,193,True,2024-02-12 10:31:56.453127,2026-01-19 11:52:07.385564
+35,SKU-01-00035,Experience Laptop,How enter seek six physical range school of.,1,Electronics,1069.13,908.76,42,True,2024-05-03 05:48:37.504672,2026-01-19 11:52:07.385604
+36,SKU-07-00036,Already Nail Polish,Attention simple town follow fight mean single better parent.,7,Beauty,119.68,59.84,439,False,2024-06-07 01:39:12.385668,2026-01-19 11:52:07.385803
+37,SKU-01-00037,Include Headphones,Rich difference indicate shake according lot sign record cover red.,1,Electronics,356.55,303.07,444,True,2024-02-27 16:22:40.078286,2026-01-19 11:52:07.385854
+38,SKU-08-00038,Participant Tea Collection,Tonight build side enjoy late large policy chair skill action whom especially.,8,Food & Grocery,23.61,18.89,38,True,2024-03-04 22:18:53.082906,2026-01-19 11:52:07.385893
+39,SKU-05-00039,Tell Fiction Novel,Game record performance necessary quite source television turn.,5,Books,17.17,12.88,435,True,2025-04-22 10:49:31.687404,2026-01-19 11:52:07.385923
+40,SKU-04-00040,Other Running Shoes,Begin politics suggest hear more law painting heart great behind weight door.,4,Sports,154.17,107.92,364,True,2025-06-06 14:53:55.268772,2026-01-19 11:52:07.385953
+41,SKU-02-00041,Order Sneakers,Air reduce wonder rate return throughout operation similar paper.,2,Clothing,45.05,27.03,123,True,2025-02-23 11:00:24.921105,2026-01-19 11:52:07.385981
+42,SKU-07-00042,End Nail Polish,Maintain deep threat explain matter mind.,7,Beauty,86.01,43.01,378,True,2025-06-24 03:02:55.414346,2026-01-19 11:52:07.386011
+43,SKU-02-00043,Even Hoodie,Amount go response picture up thank stock without free.,2,Clothing,24.93,14.96,223,True,2024-06-16 00:46:21.833771,2026-01-19 11:52:07.386082
+44,SKU-02-00044,Thought Hoodie,Level professional system wrong ten according end conference activity Mrs.,2,Clothing,126.96,76.18,314,False,2025-05-07 09:16:42.987338,2026-01-19 11:52:07.386114
+45,SKU-07-00045,Large Nail Polish,Present return late ok standard improve set.,7,Beauty,20.48,10.24,139,True,2026-01-03 13:27:49.207020,2026-01-19 11:52:07.386150
+46,SKU-08-00046,Then Snack Box,Price skin standard ask night mention tend science ago paper vote detail stuff onto.,8,Food & Grocery,57.21,45.77,283,False,2024-03-09 16:32:29.795306,2026-01-19 11:52:07.386186
+47,SKU-07-00047,Family Perfume,About new president any their yes matter image collection agency upon sort project.,7,Beauty,140.74,70.37,338,True,2025-02-05 16:45:29.446124,2026-01-19 11:52:07.386216
+48,SKU-05-00048,Make Self-Help Book,Surface size be provide less recently media thing beyond none interview prevent.,5,Books,38.52,28.89,42,True,2025-07-10 02:18:41.265253,2026-01-19 11:52:07.386288
+49,SKU-07-00049,When Perfume,Fill agreement make dark fish organization hospital sometimes rate wrong stage.,7,Beauty,151.84,75.92,162,True,2024-05-08 01:43:34.676296,2026-01-19 11:52:07.386331
+50,SKU-02-00050,Health T-Shirt,Wife happy drive until street value production.,2,Clothing,189.45,113.67,227,True,2025-08-24 06:18:10.825359,2026-01-19 11:52:07.386388
+51,SKU-05-00051,Side Cookbook,Site particular goal any ground interesting section these reveal indeed list guy.,5,Books,15.3,11.48,95,True,2024-04-17 03:28:24.624809,2026-01-19 11:52:07.386426
+52,SKU-07-00052,Case Lipstick,Majority market meeting want example later draw.,7,Beauty,19.86,9.93,181,True,2025-10-11 15:30:39.753620,2026-01-19 11:52:07.386457
+53,SKU-06-00053,Positive Stuffed Animal,Project war pressure fill Mr health page opportunity seem concern certain already bag.,6,Toys,17.28,9.5,211,True,2024-06-14 05:12:30.069162,2026-01-19 11:52:07.386490
+54,SKU-02-00054,Same Jacket,Throughout international official chance special born become inside one country.,2,Clothing,120.81,72.49,86,True,2024-10-15 23:16:34.828352,2026-01-19 11:52:07.386524
+55,SKU-03-00055,Resource Plant Pot,Defense baby share long describe fly.,3,Home & Garden,64.75,42.09,137,True,2024-11-02 07:43:00.107879,2026-01-19 11:52:07.386592
+56,SKU-02-00056,Cause Dress,Something rich local discussion forget former interest commercial career push simply what.,2,Clothing,95.42,57.25,215,True,2024-07-23 05:59:08.481855,2026-01-19 11:52:07.386762
+57,SKU-02-00057,Mother Hoodie,Box next idea take operation face happy.,2,Clothing,61.56,36.94,126,True,2024-12-15 05:33:39.400255,2026-01-19 11:52:07.386871
+58,SKU-08-00058,Own Spice Set,Song case determine key least issue town account.,8,Food & Grocery,99.7,79.76,69,True,2024-07-16 11:11:17.730267,2026-01-19 11:52:07.386936
+59,SKU-07-00059,Rather Nail Polish,Rate specific keep student popular area for lot produce.,7,Beauty,170.7,85.35,194,True,2025-07-02 10:36:19.398105,2026-01-19 11:52:07.386978
+60,SKU-06-00060,Statement Card Game,Bad feel avoid by feeling few floor glass me receive attention form goal.,6,Toys,76.93,42.31,417,True,2025-10-07 01:37:49.019706,2026-01-19 11:52:07.387013
+61,SKU-03-00061,Chance Blanket,Citizen peace middle run could option take late good individual think.,3,Home & Garden,74.32,48.31,485,True,2024-07-25 10:35:47.317394,2026-01-19 11:52:07.387044
+62,SKU-08-00062,Decision Honey,Beyond movie three social with southern Mr foot hundred service direction two poor.,8,Food & Grocery,47.86,38.29,203,False,2024-08-06 03:10:09.820483,2026-01-19 11:52:07.387084
+63,SKU-05-00063,Suffer Travel Guide,Art response administration certainly main security listen.,5,Books,48.71,36.53,400,True,2025-04-18 12:59:25.697098,2026-01-19 11:52:07.387115
+64,SKU-07-00064,Happy Face Mask,Success change TV ability surface son measure theory past.,7,Beauty,166.05,83.03,201,True,2025-04-10 13:13:44.701768,2026-01-19 11:52:07.387144
+65,SKU-04-00065,Writer Running Shoes,Political degree choose suggest physical early large well decision fill me plant beyond.,4,Sports,141.12,98.78,281,True,2024-09-13 09:11:49.179450,2026-01-19 11:52:07.387206
+66,SKU-08-00066,Money Spice Set,Talk federal hard apply begin within.,8,Food & Grocery,96.11,76.89,149,True,2024-11-15 23:55:43.093480,2026-01-19 11:52:07.387266
+67,SKU-02-00067,Thought Shorts,His few wait training exist writer about concern.,2,Clothing,139.5,83.7,71,True,2024-04-19 04:26:17.273173,2026-01-19 11:52:07.387299
+68,SKU-04-00068,During Tennis Racket,Remember soldier performance receive century economic expect majority team seek.,4,Sports,136.85,95.79,366,True,2024-07-17 19:10:58.569600,2026-01-19 11:52:07.387329
+69,SKU-07-00069,Find Lipstick,Everybody him artist weight person future unit line.,7,Beauty,98.08,49.04,306,True,2024-02-25 05:41:08.039968,2026-01-19 11:52:07.387393
+70,SKU-07-00070,Recently Sunscreen,Individual someone economic number table baby.,7,Beauty,115.57,57.78,404,False,2024-12-07 12:24:57.235127,2026-01-19 11:52:07.387471
+71,SKU-02-00071,Staff Jeans,Board couple card employee several be concern tree close plan.,2,Clothing,157.26,94.36,336,True,2025-01-10 04:44:52.507374,2026-01-19 11:52:07.387519
+72,SKU-03-00072,Inside Lamp,Him among parent job professor beat.,3,Home & Garden,119.2,77.48,330,True,2025-07-07 16:09:33.454289,2026-01-19 11:52:07.387549
+73,SKU-07-00073,Whatever Nail Polish,Especially court purpose itself growth sound cell future wait son.,7,Beauty,193.66,96.83,220,True,2024-03-09 04:51:45.057781,2026-01-19 11:52:07.387581
+74,SKU-02-00074,West Sneakers,Recent these necessary keep partner project risk nature not region concern.,2,Clothing,56.07,33.64,382,True,2025-08-28 13:58:18.216295,2026-01-19 11:52:07.387608
+75,SKU-04-00075,Person Water Bottle,Color sport television poor bill executive now treat.,4,Sports,84.21,58.95,237,True,2024-08-04 11:41:59.795879,2026-01-19 11:52:07.387636
+76,SKU-03-00076,Budget Vase,Body according base spring which really however officer couple.,3,Home & Garden,199.58,129.73,247,True,2024-04-17 09:35:59.665655,2026-01-19 11:52:07.387666
+77,SKU-07-00077,Top Lipstick,Include child town stock star air late three.,7,Beauty,36.47,18.23,481,True,2024-05-10 03:41:53.608715,2026-01-19 11:52:07.387694
+78,SKU-06-00078,President Building Blocks,Position reduce job woman message minute idea person myself real chair cost.,6,Toys,78.47,43.16,401,True,2025-08-25 21:02:09.017675,2026-01-19 11:52:07.387800
+79,SKU-08-00079,Capital Honey,Product lead property we weight tree fine event police.,8,Food & Grocery,103.09,82.47,224,True,2024-04-19 09:56:00.839324,2026-01-19 11:52:07.387838
+80,SKU-08-00080,When Honey,Course change box pressure throughout better article fire case bill.,8,Food & Grocery,27.43,21.94,22,True,2024-11-09 03:14:14.700789,2026-01-19 11:52:07.387866
+81,SKU-02-00081,Understand T-Shirt,Should thought dog consumer economy resource actually by thing theory TV house.,2,Clothing,172.1,103.26,331,True,2025-12-08 14:41:03.482465,2026-01-19 11:52:07.387906
+82,SKU-03-00082,Me Cushion,Picture yourself citizen yet finish visit whose.,3,Home & Garden,110.46,71.8,282,True,2025-10-24 16:08:30.734313,2026-01-19 11:52:07.387944
+83,SKU-07-00083,Cold Hair Dryer,Mr kid always large his financial care try cup.,7,Beauty,57.89,28.95,207,True,2026-01-14 06:30:42.765491,2026-01-19 11:52:07.388040
+84,SKU-03-00084,World Mirror,Seem management relationship tonight remain travel few will red time material tell avoid.,3,Home & Garden,88.18,57.32,377,True,2024-12-12 20:49:25.144008,2026-01-19 11:52:07.388081
+85,SKU-04-00085,Ground Water Bottle,Soldier successful appear drop despite along social take.,4,Sports,124.56,87.19,199,True,2024-02-02 15:39:39.484245,2026-01-19 11:52:07.388113
+86,SKU-04-00086,Report Basketball,Research manage true exist left window general consumer get those join specific writer.,4,Sports,66.49,46.54,360,True,2025-03-27 21:39:21.388299,2026-01-19 11:52:07.388146
+87,SKU-02-00087,Despite Jeans,Concern your its rich send require ok five continue new billion necessary some.,2,Clothing,162.91,97.75,274,True,2025-01-27 11:58:32.623229,2026-01-19 11:52:07.388192
+88,SKU-06-00088,Cut Doll,Possible wife phone since least prepare might long worker truth.,6,Toys,99.65,54.81,134,True,2024-08-07 07:24:54.521300,2026-01-19 11:52:07.388246
+89,SKU-08-00089,Rather Honey,Good trial significant discuss minute own often audience.,8,Food & Grocery,125.44,100.35,312,True,2024-03-18 22:08:40.716689,2026-01-19 11:52:07.388285
+90,SKU-02-00090,Last Hoodie,Or purpose practice five fine life arm according light take pretty many heart.,2,Clothing,80.12,48.07,234,True,2025-07-01 07:19:17.461683,2026-01-19 11:52:07.388319
+91,SKU-05-00091,Ok Cookbook,Not probably participant society human site lay mean region.,5,Books,36.88,27.66,160,True,2024-11-17 20:56:06.645584,2026-01-19 11:52:07.388429
+92,SKU-05-00092,Specific Cookbook,Down various speech treatment grow particularly.,5,Books,17.32,12.99,355,True,2025-09-12 08:19:09.480830,2026-01-19 11:52:07.388485
+93,SKU-07-00093,Old Sunscreen,Science everyone commercial too old from cultural suffer country.,7,Beauty,125.34,62.67,294,True,2024-02-14 06:23:31.747056,2026-01-19 11:52:07.388546
+94,SKU-03-00094,Generation Clock,Attack family ok decade read body section under between others marriage garden pull.,3,Home & Garden,132.57,86.17,355,False,2026-01-02 22:16:42.662787,2026-01-19 11:52:07.388578
+95,SKU-03-00095,Surface Plant Pot,Director series safe act table safe edge make market TV central.,3,Home & Garden,105.58,68.63,71,True,2024-07-11 07:48:58.932548,2026-01-19 11:52:07.388660
+96,SKU-08-00096,Center Coffee Beans,Term main maybe special than when year cup what question describe.,8,Food & Grocery,175.12,140.1,487,True,2025-09-14 01:10:30.296415,2026-01-19 11:52:07.388705
+97,SKU-03-00097,Brother Cushion,Middle kid thought their staff president now.,3,Home & Garden,165.81,107.78,493,True,2024-07-06 01:37:00.798122,2026-01-19 11:52:07.388732
+98,SKU-08-00098,You Pasta Set,Push score surface floor catch start audience claim see.,8,Food & Grocery,141.67,113.34,212,True,2025-12-12 11:58:24.648432,2026-01-19 11:52:07.388770
+99,SKU-08-00099,Land Snack Box,Serious marriage stage audience figure subject day wrong black.,8,Food & Grocery,45.94,36.75,289,True,2024-01-31 19:27:41.078212,2026-01-19 11:52:07.388811
+100,SKU-04-00100,Nor Tennis Racket,Idea wind approach it short sit ok else store ago sport mouth.,4,Sports,21.05,14.73,115,True,2025-01-26 03:24:12.581862,2026-01-19 11:52:07.388869
+101,SKU-03-00101,After Clock,Relate fear weight resource quality truth can may fight.,3,Home & Garden,119.65,77.77,395,True,2025-06-19 00:55:40.822531,2026-01-19 11:52:07.388903
+102,SKU-02-00102,Agent Jeans,Beautiful animal military win artist play like knowledge society court service example.,2,Clothing,64.56,38.74,278,True,2025-04-07 02:35:55.127596,2026-01-19 11:52:07.388938
+103,SKU-06-00103,Mean Board Game,Decide campaign again could find many.,6,Toys,155.6,85.58,225,True,2024-06-23 15:19:57.756188,2026-01-19 11:52:07.388968
+104,SKU-07-00104,Democratic Lipstick,Figure bit in at and again successful ability activity.,7,Beauty,151.16,75.58,334,True,2024-08-20 12:42:41.934474,2026-01-19 11:52:07.389038
+105,SKU-05-00105,Decision Fiction Novel,Doctor hand whether lay field another line.,5,Books,27.99,20.99,178,False,2026-01-01 19:00:30.599766,2026-01-19 11:52:07.389161
+106,SKU-02-00106,Choice Sweater,Quickly others ground sense yet less prevent.,2,Clothing,175.08,105.05,60,True,2025-01-11 07:20:24.163774,2026-01-19 11:52:07.389336
+107,SKU-04-00107,Study Basketball,Represent song outside serve wait never.,4,Sports,164.98,115.49,301,True,2025-06-25 12:49:28.130735,2026-01-19 11:52:07.389369
+108,SKU-07-00108,Western Perfume,Make live just he as matter let baby smile paper base.,7,Beauty,128.99,64.5,401,True,2025-12-29 06:40:50.346089,2026-01-19 11:52:07.389402
+109,SKU-04-00109,Dog Yoga Mat,Lead player claim everyone live although guess only five school improve member stock.,4,Sports,120.46,84.32,272,True,2025-05-05 07:37:42.432390,2026-01-19 11:52:07.389481
+110,SKU-03-00110,Street Vase,Stock development box new rate material window price single road always.,3,Home & Garden,196.12,127.48,149,True,2025-04-21 13:39:14.479329,2026-01-19 11:52:07.389514
+111,SKU-05-00111,Stuff Cookbook,Girl machine five former cover notice short.,5,Books,15.42,11.56,384,True,2025-02-16 23:37:20.793958,2026-01-19 11:52:07.389546
+112,SKU-01-00112,Gas Smart Watch,Product result almost too still over short on large.,1,Electronics,1307.22,1111.14,64,True,2025-05-26 13:17:46.622734,2026-01-19 11:52:07.389589
+113,SKU-03-00113,Four Cushion,All improve might suggest to across with school white.,3,Home & Garden,42.06,27.34,164,True,2024-03-14 14:00:21.000483,2026-01-19 11:52:07.389626
+114,SKU-07-00114,Hear Hair Dryer,Learn prevent control rather get radio give from.,7,Beauty,41.3,20.65,323,True,2024-06-28 00:31:38.332191,2026-01-19 11:52:07.389659
+115,SKU-07-00115,Front Sunscreen,Executive service along serve truth remain quality lay recognize.,7,Beauty,98.62,49.31,324,True,2025-01-21 16:32:03.206414,2026-01-19 11:52:07.389692
+116,SKU-02-00116,Never Shorts,Will onto theory popular today career wind black understand science lay cause.,2,Clothing,110.39,66.23,142,True,2025-05-20 13:45:02.669868,2026-01-19 11:52:07.389835
+117,SKU-06-00117,Wish Card Game,Against series financial service attention by community I read.,6,Toys,190.8,104.94,167,True,2024-10-14 03:26:58.043631,2026-01-19 11:52:07.389897
+118,SKU-02-00118,Million Sweater,Realize throughout evidence wall age really financial into low miss either event.,2,Clothing,132.45,79.47,357,True,2025-12-21 05:16:01.964963,2026-01-19 11:52:07.390011
+119,SKU-02-00119,Card Shorts,Feel water marriage receive none increase bank source woman.,2,Clothing,55.3,33.18,219,True,2025-01-20 18:32:08.870539,2026-01-19 11:52:07.390072
+120,SKU-08-00120,Man Tea Collection,Discuss church leg another expect family.,8,Food & Grocery,74.73,59.78,145,True,2025-08-16 01:04:07.584081,2026-01-19 11:52:07.390158
+121,SKU-03-00121,Air Clock,Each final heavy institution morning yeah themselves price eight specific quickly.,3,Home & Garden,160.84,104.55,457,True,2025-07-24 08:24:37.085268,2026-01-19 11:52:07.390193
+122,SKU-01-00122,Purpose Laptop,End whether message big less person.,1,Electronics,194.38,165.22,401,True,2025-10-22 15:04:44.834198,2026-01-19 11:52:07.390273
+123,SKU-01-00123,Month Smartphone,Of end success claim level executive month black various court behavior international within.,1,Electronics,1397.68,1188.03,80,True,2024-07-17 00:36:58.042586,2026-01-19 11:52:07.390381
+124,SKU-01-00124,End Speaker,Sport two ready spring best skin coach.,1,Electronics,343.36,291.86,352,False,2024-10-14 05:57:05.721840,2026-01-19 11:52:07.390443
+125,SKU-05-00125,Be Biography,Arm early drug serve establish rock choice thousand south light agreement speech.,5,Books,44.98,33.73,448,True,2025-12-26 18:02:18.954986,2026-01-19 11:52:07.390476
+126,SKU-06-00126,Risk Building Blocks,Decide catch before power choice but start election PM box.,6,Toys,30.25,16.64,340,False,2025-09-21 16:02:31.061349,2026-01-19 11:52:07.390509
+127,SKU-03-00127,Wear Lamp,Policy agree activity bill say power.,3,Home & Garden,88.32,57.41,156,True,2024-06-16 23:03:16.430930,2026-01-19 11:52:07.390536
+128,SKU-04-00128,Step Gym Bag,Guess campaign away push enter position.,4,Sports,136.26,95.38,360,True,2024-11-24 14:43:06.417484,2026-01-19 11:52:07.390567
+129,SKU-04-00129,Within Water Bottle,Pressure watch security half customer enter carry simple build strategy board.,4,Sports,29.42,20.59,303,True,2025-06-03 16:43:27.166814,2026-01-19 11:52:07.390599
+130,SKU-08-00130,Relate Coffee Beans,Number particularly establish center society be every still fire just similar there movement.,8,Food & Grocery,16.49,13.19,175,True,2024-05-11 16:06:37.721977,2026-01-19 11:52:07.390627
+131,SKU-07-00131,Next Perfume,Rest person art blood surface oil system.,7,Beauty,103.37,51.69,117,True,2024-09-03 03:39:07.755311,2026-01-19 11:52:07.390696
+132,SKU-02-00132,Almost Jeans,Sometimes card girl have discover girl argue deal.,2,Clothing,72.97,43.78,451,True,2025-05-23 04:29:37.669585,2026-01-19 11:52:07.390747
+133,SKU-07-00133,Worker Perfume,Four population meet air agreement south firm their respond meet one think piece late.,7,Beauty,133.69,66.84,346,True,2024-06-22 17:49:44.671491,2026-01-19 11:52:07.390784
+134,SKU-01-00134,Event Tablet,Treatment group exactly red manage lot experience travel not.,1,Electronics,688.14,584.92,369,True,2024-07-31 06:10:06.914263,2026-01-19 11:52:07.390828
+135,SKU-03-00135,People Mirror,Almost interview southern any across nothing them under hope.,3,Home & Garden,128.97,83.83,226,False,2025-02-22 02:24:24.260338,2026-01-19 11:52:07.390862
+136,SKU-02-00136,Car Jeans,Hair half debate leg direction though young goal prepare face source.,2,Clothing,40.9,24.54,63,True,2024-02-04 03:12:31.405887,2026-01-19 11:52:07.390898
+137,SKU-07-00137,Blood Nail Polish,Building though effect life teacher education within.,7,Beauty,193.2,96.6,161,True,2025-07-07 02:15:10.603581,2026-01-19 11:52:07.390934
+138,SKU-04-00138,Player Tennis Racket,Analysis sense art street pass worry development success sea light key.,4,Sports,134.25,93.97,127,True,2024-05-03 17:01:14.784551,2026-01-19 11:52:07.390965
+139,SKU-05-00139,Century Fiction Novel,Protect throughout bit local cut rate similar design he power.,5,Books,43.92,32.94,337,False,2024-07-06 20:32:49.439976,2026-01-19 11:52:07.390995
+140,SKU-04-00140,Response Basketball,Father purpose our various else environment choice news group rate drug before surface.,4,Sports,153.35,107.34,151,True,2025-03-27 02:42:55.426990,2026-01-19 11:52:07.391023
+141,SKU-04-00141,Everything Water Bottle,Increase energy unit fill recognize time represent government lead medical break large cover.,4,Sports,86.39,60.47,123,True,2024-04-08 18:41:07.134576,2026-01-19 11:52:07.391067
+142,SKU-02-00142,Security T-Shirt,Race tell song keep blood direction sure use evidence.,2,Clothing,197.57,118.54,478,True,2024-02-06 07:17:25.277324,2026-01-19 11:52:07.391097
+143,SKU-07-00143,Different Sunscreen,Whole hour program can hold left truth establish air program without everything type.,7,Beauty,82.6,41.3,349,True,2024-09-21 17:09:15.018578,2026-01-19 11:52:07.391186
+144,SKU-08-00144,Hit Olive Oil,Ball need discuss bag but administration according.,8,Food & Grocery,18.09,14.47,34,True,2024-04-28 06:07:10.847854,2026-01-19 11:52:07.391225
+145,SKU-04-00145,True Yoga Mat,Mother owner also simple factor player onto.,4,Sports,185.68,129.98,485,True,2024-05-22 23:34:23.762131,2026-01-19 11:52:07.391272
+146,SKU-05-00146,Your Art Book,With water kind use information loss evening deal decision recognize describe sell.,5,Books,26.94,20.21,205,True,2025-09-09 22:42:10.563347,2026-01-19 11:52:07.391307
+147,SKU-03-00147,Up Blanket,Cover skin resource mind democratic industry second cost station general American.,3,Home & Garden,30.47,19.81,40,True,2024-04-29 18:52:04.542441,2026-01-19 11:52:07.391339
+148,SKU-04-00148,Ability Running Shoes,Kid close either thus phone west recent history theory project him so.,4,Sports,114.23,79.96,200,True,2025-09-18 06:29:40.507827,2026-01-19 11:52:07.391366
+149,SKU-02-00149,Direction Sneakers,Attention total live born ago consider night nice assume law air special.,2,Clothing,144.26,86.56,373,False,2026-01-10 19:54:26.788858,2026-01-19 11:52:07.391434
+150,SKU-04-00150,Approach Yoga Mat,Performance subject level sure toward black candidate live cover water walk score.,4,Sports,60.23,42.16,473,True,2025-01-31 19:29:54.646508,2026-01-19 11:52:07.391464
+151,SKU-08-00151,Approach Coffee Beans,Range law treatment health police time agree change.,8,Food & Grocery,72.22,57.78,379,True,2025-02-20 11:22:52.565926,2026-01-19 11:52:07.391493
+152,SKU-03-00152,Affect Rug,Parent line common night pick be.,3,Home & Garden,17.34,11.27,70,True,2024-05-13 10:09:22.916641,2026-01-19 11:52:07.391523
+153,SKU-03-00153,Some Clock,Mission suddenly wish girl early you record.,3,Home & Garden,191.31,124.35,267,True,2025-03-11 13:22:25.979377,2026-01-19 11:52:07.391552
+154,SKU-05-00154,Sport Biography,Capital decide spend specific trade throw.,5,Books,24.87,18.65,383,True,2025-01-31 00:12:57.221494,2026-01-19 11:52:07.391580
+155,SKU-05-00155,Majority Cookbook,Boy guess smile ahead cold add very moment arm its.,5,Books,40.86,30.64,15,True,2024-01-22 05:23:06.862600,2026-01-19 11:52:07.391607
+156,SKU-07-00156,Point Face Mask,Voice let activity western safe business determine agency kitchen.,7,Beauty,111.91,55.95,134,True,2025-04-20 18:16:48.143422,2026-01-19 11:52:07.391717
+157,SKU-02-00157,Land Sweater,Power middle sit foot radio full yard onto offer best friend father.,2,Clothing,99.21,59.53,184,True,2025-09-16 11:10:45.675227,2026-01-19 11:52:07.391747
+158,SKU-03-00158,Left Vase,Top hospital perform quality campaign concern investment fund.,3,Home & Garden,44.1,28.67,395,True,2025-02-17 14:24:48.751273,2026-01-19 11:52:07.391781
+159,SKU-02-00159,Capital Jacket,Short care final whose difficult network she food animal.,2,Clothing,152.04,91.22,1,True,2025-12-17 04:52:03.436633,2026-01-19 11:52:07.391812
+160,SKU-01-00160,Event Headphones,Certainly main history production upon painting cut off expert international these.,1,Electronics,116.67,99.17,186,True,2025-12-12 03:46:11.958292,2026-01-19 11:52:07.391847
+161,SKU-03-00161,Soldier Plant Pot,Last why kid thus nice theory information member street very.,3,Home & Garden,187.26,121.72,439,True,2025-11-06 06:04:31.021442,2026-01-19 11:52:07.391877
+162,SKU-07-00162,Your Shampoo,Mouth land per whatever beat house specific join political within.,7,Beauty,74.53,37.27,213,False,2024-08-18 15:08:48.470831,2026-01-19 11:52:07.391933
+163,SKU-06-00163,Benefit Building Blocks,Language door often Mrs throughout describe list authority civil offer these body.,6,Toys,167.81,92.3,292,True,2025-07-13 22:58:53.768879,2026-01-19 11:52:07.391980
+164,SKU-01-00164,Heart Tablet,Miss chair throw word worry just address key fall lot operation home attention.,1,Electronics,373.62,317.58,264,False,2025-01-25 19:09:18.087370,2026-01-19 11:52:07.392020
+165,SKU-07-00165,Likely Lipstick,Hour oil worry tonight total cause anyone wife since whether.,7,Beauty,177.24,88.62,443,True,2025-05-22 03:22:29.857693,2026-01-19 11:52:07.392051
+166,SKU-05-00166,Share History Book,Like decade garden many cell hope low continue.,5,Books,13.46,10.1,233,True,2024-03-12 21:00:59.457399,2026-01-19 11:52:07.392088
+167,SKU-04-00167,Tonight Tennis Racket,Above need game process television give only happen center.,4,Sports,119.3,83.51,155,True,2024-08-29 18:17:08.434477,2026-01-19 11:52:07.392125
+168,SKU-04-00168,Grow Water Bottle,Herself according music rich a their true specific defense president.,4,Sports,83.13,58.19,497,True,2024-02-22 17:54:35.571258,2026-01-19 11:52:07.392176
+169,SKU-04-00169,Describe Basketball,Dark travel available travel early PM.,4,Sports,42.85,29.99,477,True,2024-09-23 04:35:31.522294,2026-01-19 11:52:07.392209
+170,SKU-04-00170,Current Bike Helmet,Open follow run movie pattern quickly your.,4,Sports,132.65,92.86,355,False,2024-12-09 04:56:26.489531,2026-01-19 11:52:07.392236
+171,SKU-06-00171,Service Board Game,Staff agree marriage analysis analysis material voice between everyone dream the.,6,Toys,155.4,85.47,192,True,2024-02-11 22:36:14.567790,2026-01-19 11:52:07.392263
+172,SKU-05-00172,Approach Cookbook,Run bag test major final wear culture nice bar.,5,Books,18.21,13.66,121,True,2025-07-04 22:52:57.609247,2026-01-19 11:52:07.392340
+173,SKU-01-00173,That Tablet,Draw treat learn cost bag group long majority feeling according.,1,Electronics,1081.9,919.62,47,True,2024-09-13 10:39:50.578166,2026-01-19 11:52:07.392371
+174,SKU-04-00174,House Gym Bag,Join business chance set right film ever major gun doctor as board.,4,Sports,144.66,101.26,190,True,2025-07-09 04:38:29.751661,2026-01-19 11:52:07.392415
+175,SKU-02-00175,Most Jeans,Like industry remember rather common plan carry research office one song today.,2,Clothing,108.5,65.1,326,True,2025-09-07 22:48:58.040064,2026-01-19 11:52:07.392447
+176,SKU-02-00176,Collection T-Shirt,Finish size add recognize but technology catch.,2,Clothing,95.47,57.28,493,True,2025-06-11 10:55:11.876113,2026-01-19 11:52:07.392508
+177,SKU-05-00177,Figure Science Book,Way else sister information type lot guy still entire.,5,Books,44.04,33.03,474,True,2025-07-09 05:57:25.123809,2026-01-19 11:52:07.392553
+178,SKU-06-00178,Majority Remote Control Car,Hospital father individual operation discover be better rate school have.,6,Toys,98.76,54.32,119,True,2025-05-10 22:45:07.460496,2026-01-19 11:52:07.392596
+179,SKU-04-00179,Million Running Shoes,Sell human head listen item husband edge win another good across.,4,Sports,159.29,111.5,299,True,2025-05-24 07:41:16.594506,2026-01-19 11:52:07.392625
+180,SKU-02-00180,Without Dress,Sure cause job forget fly continue make artist of Mr.,2,Clothing,98.17,58.9,160,True,2025-01-15 16:17:35.850925,2026-01-19 11:52:07.392683
+181,SKU-06-00181,Center Doll,Next maintain century guess science center above baby record gun American three color.,6,Toys,98.6,54.23,237,True,2025-09-15 00:32:34.319006,2026-01-19 11:52:07.392716
+182,SKU-02-00182,Manage Jeans,Population it rate alone here look figure team.,2,Clothing,44.16,26.5,351,True,2024-11-30 10:16:50.192635,2026-01-19 11:52:07.392743
+183,SKU-01-00183,Pattern Headphones,Early son because easy create name.,1,Electronics,1262.09,1072.78,167,True,2024-06-06 17:53:21.820599,2026-01-19 11:52:07.392784
+184,SKU-04-00184,Our Bike Helmet,Drop after bad two song meet protect hundred edge.,4,Sports,88.31,61.82,25,True,2025-02-11 11:09:20.865163,2026-01-19 11:52:07.392827
+185,SKU-05-00185,Gun Biography,Marriage he recent green notice bit avoid cover part view get religious.,5,Books,11.24,8.43,207,False,2025-02-05 06:13:58.719237,2026-01-19 11:52:07.392856
+186,SKU-04-00186,Free Dumbbells,Visit whatever they current maybe Republican.,4,Sports,100.48,70.34,411,True,2024-03-25 00:30:34.746809,2026-01-19 11:52:07.392886
+187,SKU-02-00187,Effort T-Shirt,Give however interest pay wind easy would space my south.,2,Clothing,26.41,15.85,399,False,2024-10-05 15:02:12.206764,2026-01-19 11:52:07.392915
+188,SKU-03-00188,Value Cushion,Join economy less move cell war hit animal but pass on book.,3,Home & Garden,167.38,108.8,190,True,2025-09-11 15:12:04.356366,2026-01-19 11:52:07.392946
+189,SKU-02-00189,Simple Sneakers,Can team various fill like region collection cultural soon range Mr.,2,Clothing,184.72,110.83,38,True,2024-04-29 08:57:30.148841,2026-01-19 11:52:07.392975
+190,SKU-02-00190,Network Jacket,Student magazine operation course loss risk paper worry bed there.,2,Clothing,181.96,109.18,227,True,2024-04-24 19:00:05.092852,2026-01-19 11:52:07.393100
+191,SKU-02-00191,Wonder Hoodie,Spend parent around skill per task scientist tell student could western lawyer.,2,Clothing,37.67,22.6,482,True,2024-04-02 16:33:15.921571,2026-01-19 11:52:07.393139
+192,SKU-03-00192,Career Mirror,Simply soon PM occur plant together room.,3,Home & Garden,167.01,108.56,202,True,2024-10-25 13:27:43.012546,2026-01-19 11:52:07.393168
+193,SKU-07-00193,The Sunscreen,Spring rich indicate consumer along hospital interesting describe society.,7,Beauty,46.97,23.48,109,False,2025-04-03 11:41:57.968971,2026-01-19 11:52:07.393196
+194,SKU-05-00194,Resource Science Book,Already choose country capital campaign drive Mrs west address approach.,5,Books,27.84,20.88,76,True,2025-01-15 05:54:58.380728,2026-01-19 11:52:07.393295
+195,SKU-04-00195,Form Tennis Racket,Series study assume event city center executive father send get maintain hard service.,4,Sports,107.29,75.1,451,True,2025-07-17 16:17:52.038041,2026-01-19 11:52:07.393355
+196,SKU-01-00196,Difference Smartphone,Walk middle talk policy think part letter cause establish.,1,Electronics,455.68,387.33,70,True,2024-08-27 19:44:40.903408,2026-01-19 11:52:07.393387
+197,SKU-04-00197,Store Yoga Mat,Beat trade activity machine protect community question reflect.,4,Sports,198.04,138.63,400,True,2024-07-14 10:38:42.347634,2026-01-19 11:52:07.393427
+198,SKU-08-00198,Without Snack Box,Series major picture determine job gas kid.,8,Food & Grocery,78.65,62.92,289,True,2024-03-07 09:38:22.932823,2026-01-19 11:52:07.393463
+199,SKU-07-00199,Care Face Mask,Ground water front finally unit explain visit conference hope into fund.,7,Beauty,48.27,24.14,163,True,2025-06-02 04:17:30.771887,2026-01-19 11:52:07.393493
+200,SKU-01-00200,Partner Smart Watch,Sometimes officer thank parent conference remain strategy which.,1,Electronics,134.96,114.72,241,True,2024-09-28 13:45:45.726770,2026-01-19 11:52:07.393525

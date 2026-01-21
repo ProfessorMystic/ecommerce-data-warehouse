@@ -1,0 +1,34 @@
+# ============================================================================
+# Git Ignore
+# ============================================================================
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.python-version
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# dbt
+ecommerce_dbt/target/
+ecommerce_dbt/logs/
+ecommerce_dbt/dbt_packages/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (optional - remove if you want to include sample data)
+# data/generated/
+
+# Zip files
+*.zip

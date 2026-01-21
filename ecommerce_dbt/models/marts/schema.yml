@@ -1,0 +1,86 @@
+# ============================================================================
+# MARTS LAYER SCHEMA
+# ============================================================================
+# Business-focused aggregations for dashboards and reporting.
+# Built on top of warehouse dims/facts.
+# ============================================================================
+
+version: 2
+
+models:
+  # Daily sales aggregations for revenue dashboards
+  - name: mart_sales_daily
+    description: "Daily aggregated sales metrics for reporting"
+    columns:
+      - name: date_key
+        description: "Primary key - calendar date"
+        tests:
+          - unique
+          - not_null
+      - name: total_orders
+        description: "Count of distinct orders"
+      - name: unique_customers
+        description: "Count of distinct customers who ordered"
+      - name: gross_revenue
+        description: "Total revenue before costs"
+      - name: gross_profit
+        description: "Revenue minus cost"
+      - name: avg_order_value
+        description: "Average revenue per order"
+      - name: profit_margin_pct
+        description: "Profit as percentage of revenue"
+
+  # Customer lifetime value for segmentation and retention
+  - name: mart_customer_lifetime
+    description: "Customer lifetime metrics with RFM segmentation"
+    columns:
+      - name: customer_id
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+      - name: lifetime_revenue
+        description: "Total revenue from customer"
+      - name: total_orders
+        description: "Count of orders placed"
+      - name: avg_order_value
+        description: "Average revenue per order"
+      - name: days_since_last_order
+        description: "Recency metric"
+      - name: purchase_frequency_segment
+        description: "Frequency-based segment"
+        tests:
+          - accepted_values:
+              values: ['Never Purchased', 'One-Time', 'Repeat', 'Loyal', 'VIP']
+      - name: recency_segment
+        description: "Recency-based segment"
+        tests:
+          - accepted_values:
+              values: ['Never Purchased', 'Active', 'Recent', 'Lapsed', 'Dormant']
+      - name: value_segment
+        description: "Value-based segment"
+        tests:
+          - accepted_values:
+              values: ['No Value', 'Low Value', 'Medium Value', 'High Value', 'Premium']
+
+  # Product performance for merchandising analysis
+  - name: mart_product_performance
+    description: "Product sales metrics with rankings"
+    columns:
+      - name: product_id
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+      - name: total_revenue
+        description: "Total revenue from product"
+      - name: total_units_sold
+        description: "Total quantity sold"
+      - name: total_profit
+        description: "Total profit from product"
+      - name: profit_margin_pct
+        description: "Profit as percentage of revenue"
+      - name: revenue_rank_in_category
+        description: "Revenue rank within product category"
+      - name: overall_revenue_rank
+        description: "Revenue rank across all products"

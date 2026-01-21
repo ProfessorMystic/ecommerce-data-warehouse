@@ -1,0 +1,243 @@
+# ============================================================================
+# WAREHOUSE LAYER SCHEMA
+# ============================================================================
+# Defines tests and documentation for dimension and fact tables.
+# Warehouse layer implements star schema for analytics.
+#
+# Tests applied:
+#   - Primary keys: unique + not_null
+#   - Foreign keys: relationships to dimensions
+#   - Enums: accepted_values for derived segments
+# ============================================================================
+
+version: 2
+
+models:
+  # Customer dimension - Type 1 SCD with tenure segmentation
+  - name: dim_customers
+    description: "Customer dimension table with derived tenure attributes"
+    columns:
+      - name: customer_id
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+      - name: email
+        description: "Customer email address - not unique due to source data quality"
+        tests:
+          - not_null
+      - name: first_name
+        description: "Customer first name"
+      - name: last_name
+        description: "Customer last name"
+      - name: full_name
+        description: "Full name (first + last)"
+      - name: phone
+        description: "Phone number"
+      - name: address
+        description: "Street address"
+      - name: city
+        description: "City"
+      - name: state
+        description: "State abbreviation"
+      - name: zip_code
+        description: "ZIP/Postal code"
+      - name: country
+        description: "Country"
+      - name: segment
+        description: "Customer segment"
+        tests:
+          - accepted_values:
+              values: ['new', 'occasional', 'regular', 'premium']
+      - name: registration_date
+        description: "Date customer registered"
+      - name: is_active
+        description: "Active status flag"
+      - name: days_since_registration
+        description: "Calculated days since registration"
+      - name: tenure_segment
+        description: "Derived tenure classification"
+        tests:
+          - accepted_values:
+              values: ['New', 'Active', 'Mature', 'Veteran']
+      - name: created_at
+        description: "Record creation timestamp"
+      - name: updated_at
+        description: "Record last update timestamp"
+
+  # Product dimension - includes price tier and stock classifications
+  - name: dim_products
+    description: "Product dimension with price tier and stock status"
+    columns:
+      - name: product_id
+        description: "Primary key"
+        tests:
+          - unique
+          - not_null
+      - name: sku
+        description: "Stock keeping unit"
+        tests:
+          - unique
+          - not_null
+      - name: product_name
+        description: "Product display name"
+        tests:
+          - not_null
+      - name: description
+        description: "Product description"
+      - name: category_id
+        description: "Category identifier"
+      - name: category_name
+        description: "Category name"
+      - name: price
+        description: "Current selling price"
+        tests:
+          - not_null
+      - name: cost
+        description: "Cost of goods"
+      - name: profit_margin
+        description: "Price minus cost"
+      - name: margin_percent
+        description: "Margin as percentage"
+      - name: stock_quantity
+        description: "Current inventory level"
+      - name: is_active
+        description: "Active status flag"
+      - name: price_tier
+        description: "Price classification tier"
+        tests:
+          - accepted_values:
+              values: ['Budget', 'Mid-Range', 'Premium', 'Luxury']
+      - name: stock_status
+        description: "Inventory status classification"
+        tests:
+          - accepted_values:
+              values: ['Out of Stock', 'Low Stock', 'Normal', 'Well Stocked']
+      - name: created_at
+        description: "Record creation timestamp"
+      - name: updated_at
+        description: "Record last update timestamp"
+
+  # Date dimension - pre-calculated date attributes for time analysis
+  - name: dim_date
+    description: "Date dimension with calendar and fiscal attributes"
+    columns:
+      - name: date_key
+        description: "Primary key (date value)"
+        tests:
+          - unique
+          - not_null
+      - name: date_day
+        description: "The calendar date"
+        tests:
+          - not_null
+      - name: year
+        description: "Calendar year"
+        tests:
+          - not_null
+      - name: quarter
+        description: "Calendar quarter (1-4)"
+        tests:
+          - accepted_values:
+              values: [1, 2, 3, 4]
+      - name: month
+        description: "Calendar month (1-12)"
+      - name: week_of_year
+        description: "Week number of the year"
+      - name: day_of_month
+        description: "Day of month (1-31)"
+      - name: day_of_week
+        description: "Day of week (0=Sunday)"
+      - name: day_of_year
+        description: "Day of year (1-366)"
+      - name: month_name
+        description: "Full month name"
+      - name: month_short
+        description: "Abbreviated month name"
+      - name: day_name
+        description: "Full day name"
+      - name: day_short
+        description: "Abbreviated day name"
+      - name: year_month
+        description: "YYYY-MM format"
+      - name: year_quarter
+        description: "YYYY-QN format"
+      - name: is_weekend
+        description: "True if Saturday or Sunday"
+        tests:
+          - not_null
+      - name: is_weekday
+        description: "True if Monday-Friday"
+        tests:
+          - not_null
+      - name: fiscal_year
+        description: "Fiscal year"
+      - name: fiscal_quarter
+        description: "Fiscal quarter"
+
+  # Sales fact - grain is one row per order line item
+  - name: fact_sales
+    description: "Sales fact table at order line item grain"
+    columns:
+      - name: sales_key
+        description: "Primary key (from order_item_id)"
+        tests:
+          - unique
+          - not_null
+      - name: order_id
+        description: "Order identifier"
+        tests:
+          - not_null
+      - name: customer_id
+        description: "FK to dim_customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+      - name: product_id
+        description: "FK to dim_products"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: product_id
+      - name: date_key
+        description: "FK to dim_date"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_key
+      - name: order_status
+        description: "Status of the order"
+        tests:
+          - not_null
+      - name: payment_method
+        description: "Payment method used"
+      - name: quantity
+        description: "Quantity sold"
+        tests:
+          - not_null
+      - name: unit_price
+        description: "Price per unit"
+        tests:
+          - not_null
+      - name: discount
+        description: "Discount amount"
+      - name: discounted_price
+        description: "Unit price after discount"
+      - name: gross_amount
+        description: "Total revenue (line_total)"
+        tests:
+          - not_null
+      - name: cost_amount
+        description: "Total cost of goods sold"
+      - name: profit_amount
+        description: "Gross profit (revenue - cost)"
+      - name: order_date
+        description: "Order timestamp"
+        tests:
+          - not_null
+      - name: created_at
+        description: "Record creation timestamp"

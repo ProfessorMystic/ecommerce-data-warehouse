@@ -1,0 +1,53 @@
+# ============================================================================
+# EXPOSURES
+# ============================================================================
+# Documents downstream dependencies (dashboards, reports, ML models).
+# Shows up in dbt docs and lineage graph.
+# ============================================================================
+
+version: 2
+
+exposures:
+  - name: sales_dashboard
+    type: dashboard
+    maturity: medium
+    description: "Executive dashboard showing daily revenue, orders, and profit trends"
+    owner:
+      name: Data Team
+      email: data@company.com
+    depends_on:
+      - ref('mart_sales_daily')
+      - ref('dim_date')
+
+  - name: customer_segmentation_report
+    type: analysis
+    maturity: medium
+    description: "Customer RFM analysis for marketing campaigns"
+    owner:
+      name: Marketing Analytics
+      email: marketing@company.com
+    depends_on:
+      - ref('mart_customer_lifetime')
+      - ref('dim_customers')
+
+  - name: product_performance_report
+    type: analysis
+    maturity: medium
+    description: "Product sales rankings for merchandising decisions"
+    owner:
+      name: Merchandising Team
+      email: merch@company.com
+    depends_on:
+      - ref('mart_product_performance')
+      - ref('dim_products')
+
+  - name: finance_revenue_extract
+    type: application
+    maturity: high
+    description: "Daily extract for finance system reconciliation"
+    owner:
+      name: Finance Team
+      email: finance@company.com
+    depends_on:
+      - ref('fact_sales')
+      - ref('mart_sales_daily')
